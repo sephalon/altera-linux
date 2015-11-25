@@ -92,6 +92,11 @@
 			};
 		};
 
+		sld_hub_controller_system_0_link: debug@0x000010000 {
+			compatible = "altr,altera_mm_debug_link-14.1", "altr,mm-debug-link-1.0";
+			reg = <0x00000000 0x00010000 0x00000080>;
+		};
+
 		can0: can@ffc00000 {
 			compatible = "bosch,d_can";
 			reg = <0xffc00000 0x1000>;
